@@ -1,0 +1,198 @@
+<!-- Kode ansvarlig: Anders-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filmfabrikken/Projekter</title>
+    <link rel="stylesheet" href="css/filmfabrikken.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="billeder/favicon.ico" />
+
+</head>
+<body>
+<main class="gridcontainer">
+
+    <header class="header">
+        <img alt="logo til filmfabrikken" class="logo" src="billeder/logo5.png">
+
+        <a class="loginbtn2" href="forum.html"><button class="loginbtn"><i class="fas fa-sign-in-alt"></i></button></a>
+    </header>
+
+    <div class="menu2"><span onclick="openNav()"><button class="menubtn">Open Menu</button></span></div>
+
+    <!-- slide menu !-->
+    <nav id="slidemenu" class="overlay">
+
+        <div class="overlay-content">
+            <a class="btnC" href="index.html">Forside</a>
+            <a class="btnC" href="Projekter.html">Projekter</a>
+            <a class="btnC" href="nyheder.html">Nyheder</a>
+            <a class="btnC" href="Om%20os.html">Om Filmfabrikken</a>
+            <a class="btnC" href="Kontakt.html">Kontakt</a>
+            <a class="btnC" href="Tilmelding.html">Tilmelding</a>
+        </div>
+        <a href="index.html" class="closebtn" onclick="closeNav()">&times;</a>
+    </nav>
+
+    <nav class="navbar">
+        <a href="index.html">Forside</a>
+        <a href="Projekter.html">Projekter</a>
+        <a href="nyheder.html">Nyheder</a>
+        <a href="Om%20os.html">Om Filmfabrikken</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="Tilmelding.html">Tilmelding</a>
+    </nav>
+
+    <!-- video container 1 !-->
+    <div class="projekt-container1">
+        <h3 class="Poverskrift">Mit Møn</h3>
+
+        <a class="prevP" onclick="plusSlides(-1)"><i class="fas fa-backward"></i></a>
+
+        <div class="mySlidesPfade">
+            <p class="numbertextP">1 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/mm1.jpg">
+        </div>
+
+        <div class="mySlidesPfade">
+            <p class="numbertextP">2 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/mm2.jpg">
+        </div>
+
+        <div class="mySlidesPfade">
+            <p class="numbertextP">3 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/mm3.jpg">
+        </div>
+
+        <a class="nextP" onclick="plusSlides(1)"><i class="fas fa-forward"></i></a>
+
+        <div class="row">
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo" src="billeder/mm1.jpg" onclick="currentSlide(1)">
+            </div>
+
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo" src="billeder/mm2.jpg" onclick="currentSlide(2)">
+            </div>
+
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo" src="billeder/mm3.jpg" onclick="currentSlide(3)">
+            </div>
+        </div>
+
+        <p class="projekt-text">
+            Møn vrimler med gode historier. Fra mytologisk ladede eventyr fra fortryllet skov over æterisk panteisme til jordnære fortællinger om handlekraftige mennesker før og nu.
+            <br>
+            For eksempel historier fra 2. Verdenskrig. Eller historier om de mange oldtidsminder, eller nutidige fortællinger om livets gang på Møn.
+            <br>
+            Der er historier om bonde, fisker og håndværker, rig og fattig, høj og lav, historier fra godser og hytter.
+            <br>
+            Har du har en historie om eller fra Møn, som du vil fortælle på film, kan du henvende dig til Filmfabrikken. Hvis historien er god og realiserbar, vil Filmfabrikkens lærere hjælpe dig med at filme dit projekt.
+        </p>
+    </div>
+
+    <!-- Video container 2 !-->
+    <div class="projekt-container2">
+        <h3 class="Poverskrift">Nordisk Film Camp</h3>
+
+        <a class="prevP" onclick="plusSlides2(-1)"><i class="fas fa-backward"></i></a>
+
+        <div class="mySlidesPfade2">
+            <p class="numbertextP">1 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/nc1.jpg">
+        </div>
+
+        <div class="mySlidesPfade2">
+            <p class="numbertextP">2 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/nc2.jpg">
+        </div>
+
+        <div class="mySlidesPfade2">
+            <p class="numbertextP">3 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/nc3.jpg">
+        </div>
+
+        <a class="nextP" onclick="plusSlides2(1)"><i class="fas fa-forward"></i></a>
+
+        <div class="row">
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo2" src="billeder/nc1.jpg" onclick="currentSlide2(1)">
+            </div>
+
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo2" src="billeder/nc2.jpg" onclick="currentSlide2(2)">
+            </div>
+
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo2" src="billeder/nc3.jpg" onclick="currentSlide2(3)">
+            </div>
+        </div>
+
+        <p class="projekt-text">
+            I sommeren 2014 afholdt Filmfabrikken i samarbejde med Danske Børne- og Ungdomsklubber Nordisk Film Camp. Fra 30. juni – 4. juli 2014 dannede Filmfabrikken og Teaterhøjskolen Rødkilde ramme om 24 børn og unge fra hele Norden.
+            <br>
+            Børn og unge, der producerede film, samarbejdede, netværkede og oplevede den mønske natur.
+        </p>
+    </div>
+    <!-- video container 3 !-->
+    <div class="projekt-container3">
+        <h3 class="Poverskrift">Præstø skole går til filmen</h3>
+
+        <a class="prevP" onclick="plusSlides3(-1)"><i class="fas fa-backward"></i></a>
+
+        <div class="mySlidesPfade3">
+            <p class="numbertextP">1 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/ps1.jpg">
+        </div>
+
+        <div class="mySlidesPfade3">
+            <p class="numbertextP">2 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/ps2.jpg">
+        </div>
+
+        <div class="mySlidesPfade3">
+            <p class="numbertextP">3 / +</p>
+            <img alt="dette er en placholder for en passende video" class="mySlidesV" src="billeder/ps3.jpg">
+        </div>
+
+        <a class="nextP" onclick="plusSlides3(1)"><i class="fas fa-forward"></i></a>
+
+        <div class="row">
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo3" src="billeder/ps1.jpg" onclick="currentSlide3(1)">
+            </div>
+
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo3" src="billeder/ps2.jpg" onclick="currentSlide3(2)">
+            </div>
+
+            <div class="column">
+                <img alt="dette er en placholder for en passende video" class="nextvideo3" src="billeder/ps3.jpg" onclick="currentSlide3(3)">
+            </div>
+        </div>
+
+        <p class="projekt-text">
+            Alle 7. og 8. klasser, henholdsvis 2 og 3, på Præstø Skole har i foråret 2016 sammen med Filmfabrikken produceret i alt 6 film.
+            <br>
+            Eleverne har selv haft hånd over og styr på forløbet fra idé til færdig film. Og efterfølgende premierer i Bio Bernhard med rød løber, sodavand og chips samt tordnende klapsalver og almindelig beundring.
+            <br>
+            Alle film er produceret på én uge, hvor Filmfabrikkens og klassernes lærere har stået bi med råd og dåd, men hvor eleverne selv har haft fingre i alle filmprocessens discipliner.
+            <br>
+            Alle elever har flittigt fundet fælles fodslag i et et kreativt samarbejde, for film er bestemt teamwork, hvor ingen kæde er stærkere end det svageste led.
+        </p>
+    </div>
+
+
+    <footer class="footer">
+        <a class="link" href="Kontakt.html"><button class="footericon"><i class="fas fa-address-book"></i></button></a>
+        <a class="link" href="https://www.facebook.com/Filmfabrikken"><button class="footericon"><i class="fab fa-facebook"></i></button></a>
+        <a class="link" href=""><button class="footericon"><i class="fab fa-instagram"></i></button></a>
+        <a class="link" href="https://www.youtube.com/channel/UC37s78kXjsZ0wqwqlpVxzIQ"><button class="footericon"><i class="fab fa-youtube"></i></button></a>
+    </footer>
+</main>
+
+<script src="javq/projekter.js"></script>
+</body>
+</html>
